@@ -1,0 +1,59 @@
+// first code if else 
+
+class Solution {
+    public static String compareNM(int n, int m) {
+        // code here
+        if(n>m){
+            return "greater";
+        }
+        else if(n==m){
+            return "equal";
+        }
+        else{
+            return "lesser";
+        }
+    }
+}
+
+
+// second code switch case 
+
+class Solution{
+    static double switchCase(int choice, List<Double> arr){
+        // code here
+        switch (choice) {
+        case 1 :
+            double R = arr.get(0);
+            return Math.PI*R*R;
+            
+        case 2 :
+            double L = arr.get(0);
+            double B = arr.get(1) ;
+            return L*B;
+            
+       
+            }
+            return 0 ;
+    }
+    
+}
+
+//third code while loop test 
+
+class Geeks {
+	 static void printTable (int n) 
+	 {
+            int multiplier=10;
+            while(multiplier>0)
+            {
+              System.out.print(n*multiplier +" ")    ;
+                multiplier-- ;
+            }
+       System.out.println();
+	 }
+
+}
+
+
+
+
